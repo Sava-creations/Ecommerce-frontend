@@ -64,6 +64,7 @@ body{
 #navbar li{
     list-style: none;
     padding:0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -72,6 +73,7 @@ body{
     font-weight:600;
     color:#1a1a1a;
     transition:0.3s ease;
+    
 }
 
 #navbar li a:hover,
@@ -80,9 +82,10 @@ body{
     color:#088178;
 }
 
-#navbar li a.active::after{
+#navbar li a.active::after,
+#navbar li a:hover::after{
     content: "";
-    width:30%;
+    width:55%;
     height:2px;
     background:#088178;
     position: absolute;
