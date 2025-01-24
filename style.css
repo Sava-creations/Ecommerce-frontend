@@ -173,3 +173,73 @@ body{
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
 }
+
+/*product section*/
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width:23%;
+    min-width: 250px;
+    padding:10px 12px; /*10 cant change*/
+    border:1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+    margin:15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product1 .pro img{
+    width:100%;                    /*takes up full with of the box*/
+    border-radius: 20px;
+}
+#product1 .pro:hover{
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#product1 .pro .des{
+    text-align: start;
+}
+#product1 .pro .des span{
+    color:#606063;
+    font-size:12px;
+}
+
+#product1 .pro .des h5{
+    margin-top:7px;
+    color:#1a1a1a;
+    font-size:14px;
+}
+
+#product1 .pro .des i{
+    font-size:12px;
+    color:rgb(243,181,25);
+}
+
+#product1 .pro .des h4{
+    font-size:15px;
+    font-weight:700;
+    color:#088178;
+}
+
+#product1 .pro .cart{
+    width: 40px;        /*height,width of the cart conatiner*/
+    height: 40px;
+    line-height: 40px; /*aligns the icon to center of the conatiner. if this is smaller than height content moves upwards*/
+    border: 1px solid #cce7d0;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color:#088178;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
