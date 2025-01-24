@@ -52,7 +52,11 @@ body{
     justify-content: space-between;
     padding:1px 80px;
     background:#E3E6F3;
-    box-shadow:0px 5px 15px rgba(0, 0, 0, .3);
+    box-shadow:0px 5px 25px rgba(0, 0, 0, .3);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;   /* if not boxshadow wont show. the heder will be on top from others*/
 }
 
 #navbar{
@@ -73,7 +77,6 @@ body{
     font-weight:600;
     color:#1a1a1a;
     transition:0.3s ease;
-    
 }
 
 #navbar li a:hover,
@@ -91,4 +94,36 @@ body{
     position: absolute;
     bottom:-4px;
     left:20px;
+}
+#hero{
+    background-image: url("images/hero2.jpeg");
+    height:90vh;
+    width:100%;
+    background-size: cover;
+    
+    padding:0 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: top 100% left 0;
+}
+#hero h4{
+    padding-bottom:15px;
+}
+
+#hero h1{
+    color:#088178;
+}
+
+#hero button{
+    border:0;
+    background-color: transparent;
+    background-image: url("images/button.png");
+    color:#088178;
+    padding:14px 80px 14px 65px;
+    /* background-repeat: no-repeat; */
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
