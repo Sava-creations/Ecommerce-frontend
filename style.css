@@ -42,6 +42,18 @@ p{
     margin:40px 0;
 }
 
+button.normal{
+    font-size:14px;
+    font-weight:600;
+    padding:15px 30px;
+    color:#000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition:0.2s;
+}
 body{
     width:100%;
 }
@@ -226,7 +238,7 @@ body{
 }
 
 #product1 .pro .des h4{
-    font-size:15px;
+    font-size:18px;
     font-weight:700;
     color:#088178;
 }
@@ -242,4 +254,39 @@ body{
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+/*banner section*/
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/banner/1.png");
+    width:100%; /*take up 100% of the width of its parent container*/
+    height:40vh;
+    background-size: cover;/*makes the image fill the entire container */
+    background-position: center; /*centers the image in the container*/
+}
+
+#banner h4{
+    color:#fff;
+    font-size:18px;
+}
+#banner h2{
+    color:#fff; 
+    font-size:35px;
+    padding:10px 0;
+}
+#banner p{
+    color:#fff;
+    font-size:15px;
+    padding: 15px 0;
+}
+#banner h2 span{
+    color:#ef3636;
+}
+#banner button:hover{
+    background-color: #088178;
+    color:#fff;
 }
