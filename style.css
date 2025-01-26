@@ -68,7 +68,7 @@ body{
     position: sticky;
     top:0;
     left:0;
-    z-index:999;   /* if not boxshadow wont show. the heder will be on top from others*/
+    z-index:999;                                                                                          /* if not boxshadow wont show. the heder will be on top from others*/
 }
 
 #navbar{
@@ -171,7 +171,7 @@ body{
 }
 
 #feature .fe-box:nth-child(2) h6{
-    background-color: #cdebbc;       /* Overrides default color for the 2nd child */
+    background-color: #cdebbc;                                                                                                 /* Overrides default color for the 2nd child */
 }
 #feature .fe-box:nth-child(3) h6{
     background-color: #d1e8f2;
@@ -187,6 +187,7 @@ body{
 }
 
 /*product section*/
+
 #product1{
     text-align: center;
 }
@@ -201,7 +202,7 @@ body{
 #product1 .pro{
     width:23%;
     min-width: 250px;
-    padding:10px 12px; /*10 cant change*/
+    padding:10px 12px;                                              /*10 cant change*/
     border:1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
@@ -211,7 +212,7 @@ body{
     position: relative;
 }
 #product1 .pro img{
-    width:100%;                    /*takes up full with of the box*/
+    width:100%;                                                                                                                                /*takes up full with of the box*/
     border-radius: 20px;
 }
 #product1 .pro:hover{
@@ -244,9 +245,9 @@ body{
 }
 
 #product1 .pro .cart{
-    width: 40px;        /*height,width of the cart conatiner*/
+    width: 40px;                                                           /*height,width of the cart conatiner*/
     height: 40px;
-    line-height: 40px; /*aligns the icon to center of the conatiner. if this is smaller than height content moves upwards*/
+    line-height: 40px;                                                     /*aligns the icon to center of the conatiner. if this is smaller than height content moves upwards*/
     border: 1px solid #cce7d0;
     border-radius: 50px;
     background-color: #e8f6ea;
@@ -256,6 +257,7 @@ body{
     right: 10px;
 }
 /*banner section*/
+
 #banner{
     display: flex;
     flex-direction: column;
@@ -263,10 +265,10 @@ body{
     align-items: center;
     text-align: center;
     background-image: url("images/banner/1.png");
-    width:100%; /*take up 100% of the width of its parent container*/
+    width:100%;                                                                                                           /*take up 100% of the width of its parent container*/
     height:40vh;
-    background-size: cover;/*makes the image fill the entire container */
-    background-position: center; /*centers the image in the container*/
+    background-size: cover;                                                                                              /*makes the image fill the entire container */
+    background-position: center;                                                                                        /*centers the image in the container*/
 }
 
 #banner h4{
@@ -289,4 +291,65 @@ body{
 #banner button:hover{
     background-color: #088178;
     color:#fff;
+}
+
+/*call to action banner section*/
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/banner/3.jpeg");
+    min-width:700px;
+    height:50vh;
+    background-size: cover;
+    background-position: center; 
+    padding:60px;
+}
+
+#sm-banner .banner-box2{        
+    background-image: url("images/banner/4.jpeg");                                              /* as this class is defined later this will override the above background image*/
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner h4{
+    color:#fff;
+    font-size:20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color:#fff;
+    font-size:28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color:#fff;
+    font-size:14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    font-size:13px;
+    font-weight:600;
+    padding:11px 18px;
+    color:#000;
+    background-color: transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline:none;
+    transition:0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    color:#fff;
+    border:1px solid #088178;
 }
