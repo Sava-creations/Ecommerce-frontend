@@ -298,18 +298,18 @@ body{
 #sm-banner .banner-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     background-image: url("images/banner/3.jpeg");
     min-width:700px;
     height:50vh;
     background-size: cover;
     background-position: center; 
-    padding:60px;
+    padding:20px;
 }
 
 #sm-banner .banner-box2{        
-    background-image: url("images/banner/4.jpeg");                                              /* as this class is defined later this will override the above background image*/
+    background-image: url("images/banner/4.jpeg");     /* this will override the above background image as this is defined later*/                                          /* as this class is defined later this will override the above background image*/
 }
 
 #sm-banner{
