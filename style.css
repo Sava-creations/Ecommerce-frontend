@@ -309,7 +309,7 @@ body{
 }
 
 #sm-banner .banner-box2{        
-    background-image: url("images/banner/4.jpeg");     /* this will override the above background image as this is defined later*/                                          /* as this class is defined later this will override the above background image*/
+    background-image: url("images/banner/4.jpeg"); /* this will override the above background image as this is defined later. as this class is defined later this will override the above background image*/
 }
 
 #sm-banner{
@@ -350,7 +350,7 @@ button .white{
     transition:0.2s;
 }
 
-#sm-banner .banner-box:hover button{ /*when user hovers over the bannerbox the styles will be applied to button inside the bannerbox*/
+#sm-banner .banner-box:hover button{                                           /*when user hovers over the bannerbox the styles will be applied to button inside the bannerbox*/
     background-color: #088178;
     color:#fff;
     border:1px solid #088178;
@@ -409,7 +409,7 @@ button .white{
     align-items: center;
     background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-position: 20% 30%; /* Positions the background slightly right (20%) and somewhat down (30%) */
+    background-position: 20% 30%;                        /* Positions the background slightly right (20%) and somewhat down (30%) */
     background-color: #041e42;
 }
 
@@ -432,7 +432,7 @@ button .white{
     height:3.125rem;
     padding: 0 1.25em;
     font-size:14px;
-    width:100%;    /* input field will adapts to the container's width for better responsiveness. */
+    width:100%;                                             /* input field will adapts to the container's width for better responsiveness. */
     border:1px solid transparent;
     border-radius: 4px;
     outline:none;
@@ -447,12 +447,76 @@ button .white{
 #newsletter button{
     background-color: #088178;
     color:#fff;
-    white-space:nowrap; /*prevents the text from wrapping to the next line same as flex-wrap but it is used to flex items this is for text*/
+    white-space:nowrap;                                     /*prevents the text from wrapping to the next line same as flex-wrap but it is used to flex items this is for text*/
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }           
 
 #newsletter .form{
     display: flex;
-    /* width:40% */
+    width:40%
+}
+
+/*footer section*/
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #e3e6f3;
+    padding: 0px 0px 10px 0px;
+}
+
+footer .logo {
+    margin-bottom: 5px;                                                                                                       /* Remove any bottom margin if any */
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;                                                                                                        /* Reduce the space between sections */
+}
+
+footer h4{
+    font-size:14px;
+}
+
+footer p{
+    font-size:13px;
+    margin:0 0 8px 0;
+}
+
+footer a{
+    font-size:13px;
+    text-decoration: none;                                                                                                      /*removes underline from the link*/
+    color:#222;
+    margin-bottom: 10px;        
+}
+
+footer .follow i{
+    color:#465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border:1px solid #088178;
+    border-radius: 6px;
+    
+}
+
+footer .install img{
+    margin:10px 0 15px 0;
+    cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color:#088178;
+}
+
+footer .copyright{
+    width:100%;
+    text-align: center;
 }
