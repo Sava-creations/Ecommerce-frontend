@@ -301,7 +301,7 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     background-image: url("images/banner/3.jpeg");
-    min-width:700px;
+    min-width:45%;
     height:50vh;
     background-size: cover;
     background-position: center; 
@@ -316,6 +316,8 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 20px;
+    margin:0;
 }
 
 #sm-banner h4{
@@ -335,7 +337,7 @@ body{
     padding-bottom: 15px;
 }
 
-button.white{
+button .white{
     font-size:13px;
     font-weight:600;
     padding:11px 18px;
@@ -348,8 +350,52 @@ button.white{
     transition:0.2s;
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button{ /*when user hovers over the bannerbox the styles will be applied to button inside the bannerbox*/
     background-color: #088178;
     color:#fff;
     border:1px solid #088178;
+}
+
+/*text banner section*/
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/banner/3.jpeg");
+    min-width:30%;
+    height:30vh;
+    background-size: cover;
+    background-position: center; 
+    padding:20px;
+    margin:20px;
+}
+
+#banner3 .banner-box h2{
+    color:#000000;
+    font-size:22px;
+    font-weight: 900;
+}
+
+#banner3 .banner-box span{
+    color:#5b1210;
+    font-size:15px;
+    font-weight: 600;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin:0;
+}
+#banner3 .banner-box3{
+    background-image: url("images/banner/7.png");
+}
+#banner3 .banner-box4{
+    background-image: url("images/banner/5.png");
+}
+#banner3 .banner-box5{
+    background-image: url("images/banner/6.png");
 }
