@@ -306,6 +306,7 @@ body{
     background-size: cover;
     background-position: center; 
     padding:20px;
+    cursor: pointer;
 }
 
 #sm-banner .banner-box2{        
@@ -369,6 +370,7 @@ button .white{
     background-position: center; 
     padding:20px;
     margin:20px;
+    cursor: pointer;
 }
 
 #banner3 .banner-box h2{
@@ -386,7 +388,6 @@ button .white{
 #banner3{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 0 80px;
     margin:0;
 }
@@ -520,3 +521,4 @@ footer .copyright{
     width:100%;
     text-align: center;
 }
+
