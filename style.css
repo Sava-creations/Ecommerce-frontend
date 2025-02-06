@@ -266,10 +266,12 @@ body{
     text-align: center;
     background-image: url("images/banner/1.png");
     width:100%;                                                                                                           /*take up 100% of the width of its parent container*/
-    height:40vh;
+    min-height:40vh;
     background-size: cover;                                                                                              /*makes the image fill the entire container */
-    background-position: center;                                                                                        /*centers the image in the container*/
+    background-position: center;                                                                                         /*centers the image in the container*/
+    padding: 20px;
 }
+                                                                                           
 
 #banner h4{
     color:#fff;
