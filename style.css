@@ -524,3 +524,51 @@ footer .copyright{
     text-align: center;
 }
 
+/*shop page*/
+
+#page-header{
+    background-image: url("images/shop_cover.jpg");
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    padding:14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#page-header h2,
+#page-header p{
+    color:#fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;               /*removes underline from the link*/
+    background-color: #088178;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color:#fff;
+    font-weight: 600;
+}
+
+/*single product*/
+
+#prodetails .single-pro-image{
+    width:40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    cursor: pointer;
+}
+#prodetails{
+    display: flex;
+}
