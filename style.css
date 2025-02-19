@@ -564,7 +564,8 @@ footer .copyright{
 }
 .small-img-group{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10px; /* Adds space between the images manually as gaps werent working by space between */
 }
 .small-img-col{
     cursor: pointer;
@@ -572,3 +573,35 @@ footer .copyright{
 #prodetails{
     display: flex;
 }
+#prodetails .single-pro-details{
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h5{
+    padding: 40px 0 20px 0;
+}   
+#prodetails .single-pro-details h2{
+    font-size:26px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{  
+    width:50px;
+    height:47px;
+    padding-left: 10px;
+    font-size:16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color:#fff;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;                                                      /*removes the outline(after clicking on button) from the input field*/   
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
