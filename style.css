@@ -412,7 +412,7 @@ button .white{
     align-items: center;
     background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-position: 20% 30%;                        /* Positions the background slightly right (20%) and somewhat down (30%) */
+    background-position: 20% 30%;                              /* Positions the background slightly right (20%) and somewhat down (30%) */
     background-color: #041e42;
 }
 
@@ -435,7 +435,7 @@ button .white{
     height:3.125rem;
     padding: 0 1.25em;
     font-size:14px;
-    width:100%;                                             /* input field will adapts to the container's width for better responsiveness. */
+    width:100%;                                                    /* input field will adapts to the container's width for better responsiveness. */
     border:1px solid transparent;
     border-radius: 4px;
     outline:none;
@@ -450,7 +450,7 @@ button .white{
 #newsletter button{
     background-color: #088178;
     color:#fff;
-    white-space:nowrap;                                     /*prevents the text from wrapping to the next line same as flex-wrap but it is used to flex items this is for text*/
+    white-space:nowrap;                                              /*prevents the text from wrapping to the next line same as flex-wrap but it is used to flex items this is for text*/
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }           
@@ -548,7 +548,7 @@ footer .copyright{
 }
 
 #pagination a{
-    text-decoration: none;               /*removes underline from the link*/
+    text-decoration: none;                                                                           /*removes underline from the link*/
     background-color: #088178;
     padding: 10px 15px;
     border-radius: 4px;
@@ -565,7 +565,7 @@ footer .copyright{
 .small-img-group{
     display: flex;
     /* justify-content: space-between; */
-    gap: 10px; /* Adds space between the images manually as gaps werent working by space between */
+    gap: 10px;                                                                                       /* Adds space between the images manually as gaps werent working by space between */
 }
 .small-img-col{
     cursor: pointer;
@@ -599,7 +599,7 @@ footer .copyright{
     color:#fff;
 }
 #prodetails .single-pro-details input:focus{
-    outline: none;                                                      /*removes the outline(after clicking on button) from the input field*/   
+    outline: none;                                                                                               /*removes the outline(after clicking on button) from the input field*/   
 }
 #prodetails .single-pro-details span{
     line-height: 25px;
