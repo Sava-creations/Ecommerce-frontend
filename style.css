@@ -605,3 +605,9 @@ footer .copyright{
     line-height: 25px;
 }
 
+/*blog page*/
+
+#page-header.blog-header{
+    background-image: url("images/blog.jpg");
+}
+
