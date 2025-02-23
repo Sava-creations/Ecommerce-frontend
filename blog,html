@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"data-purpose="Layout StyleSheet"title="Web Awesome"href="/css/app-wa-69936a1b279f3a9001400679f162b44b.css?vsn=d">
+    <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css">
+      <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css">
+      <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-light.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-thin.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-light.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-thin.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-light.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo.png" width="100px" height="100px" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html" >Home</a></li>      
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-regular fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#Stayhome</h2>
+        <p>Save more with coupons & up to 70% off!</p>
+       
+    </section>
+
+    <section id="product1" class="section-p1">
+    
+        <div class="pro-container">
+            <!-- Margherita Pizza -->
+            <div class="pro" onclick="window.location.href='singleproduct.html';">
+                <img src="images/products/1.png" alt="Margherita Pizza">
+                <div class="des">
+                    <span>Classic Italian</span>
+                    <h5>Margherita Pizza</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <h4>$13</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Cheeseburger -->
+            <div class="pro">
+                <img src="images/products/2.png" alt="Cheeseburger">
+                <div class="des">
+                    <span>Classic American</span>
+                    <h5>Cheeseburger</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$11</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Sushi Platter -->
+            <div class="pro">
+                <img src="images/products/3.png" alt="Sushi Platter">
+                <div class="des">
+                    <span>Japanese Delights</span>
+                    <h5>Sushi Platter</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$23</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Grilled Chicken -->
+            <div class="pro">
+                <img src="images/products/4.png" alt="Grilled Chicken">
+                <div class="des">
+                    <span>Grilled & Juicy</span>
+                    <h5>Grilled Chicken</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$17</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Pasta Carbonara -->
+            <div class="pro">
+                <img src="images/products/5.png" alt="Pasta Carbonara">
+                <div class="des">
+                    <span>Italian Delight</span>
+                    <h5>Pasta Carbonara</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Chocolate Cake -->
+            <div class="pro">
+                <img src="images/products/6.png" alt="Chocolate Cake">
+                <div class="des">
+                    <span>Sweet Indulgence</span>
+                    <h5>Chocolate Cake</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$16</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Caesar Salad -->
+            <div class="pro">
+                <img src="images/products/7.png" alt="Caesar Salad">
+                <div class="des">
+                    <span>Healthy Choice</span>
+                    <h5>Caesar Salad</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$9</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <!-- Ice Cream Sundae -->
+            <div class="pro">
+                <img src="images/products/8.png" alt="Ice Cream Sundae">
+                <div class="des">
+                    <span>Summer Treat</span>
+                    <h5>Ice Cream Sundae</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <h4>$6</h4>
+                </div>
+                <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+            </div>
+        
+            <div class="pro-container">
+                <!-- Vegan Tacos -->
+                <div class="pro">
+                    <img src="images/new_arrivals/1.png" alt="Vegan Tacos">
+                    <div class="des">
+                        <span>Healthy & Fresh</span>
+                        <h5>Vegan Tacos</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <h4>$10</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Fruit Salad -->
+                <div class="pro">
+                    <img src="images/new_arrivals/2.png" alt="Fruit Salad">
+                    <div class="des">
+                        <span>Fresh & Fruity</span>
+                        <h5>Fruit Salad</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$8</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Falafel Wrap -->
+                <div class="pro">
+                    <img src="images/new_arrivals/3.png" alt="Falafel Wrap">
+                    <div class="des">
+                        <span>Middle Eastern</span>
+                        <h5>Falafel Wrap</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$12</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Chicken Biryani -->
+                <div class="pro">
+                    <img src="images/new_arrivals/4.png" alt="Chicken Biryani">
+                    <div class="des">
+                        <span>Spiced & Aromatic</span>
+                        <h5>Chicken Biryani</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- BBQ Ribs -->
+                <div class="pro">
+                    <img src="images/new_arrivals/5.png" alt="BBQ Ribs">
+                    <div class="des">
+                        <span>Grilled & Juicy</span>
+                        <h5>BBQ Ribs</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <h4>$20</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Lobster Roll -->
+                <div class="pro">
+                    <img src="images/new_arrivals/6.png" alt="Lobster Roll">
+                    <div class="des">
+                        <span>Seafood Special</span>
+                        <h5>Lobster Roll</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$22</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Pad Thai -->
+                <div class="pro">
+                    <img src="images/new_arrivals/7.png" alt="Pad Thai">
+                    <div class="des">
+                        <span>Thai Classic</span>
+                        <h5>Pad Thai</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$14</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+        
+                <!-- Shakshuka -->
+                <div class="pro">
+                    <img src="images/new_arrivals/8.png" alt="Shakshuka">
+                    <div class="des">
+                        <span>Middle Eastern Delight</span>
+                        <h5>Shakshuka</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fa-regular fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+    </section>
+    
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+ 
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Our Newsletter</h4>
+            <p>Get E-mail updates about our latest dishes and <span>special discounts</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your email">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+
+        <div class="col">
+            <img src="images/logo.png" width="100px" height="100px" class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 123 Main Street, Colombo, Sri Lanka</p>
+            <p><strong>Phone:</strong> +94 123 456 789</p>
+            <p><strong>Hours:</strong> 10:00 AM - 10:00 PM, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">How We Cook</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+            <a href="#">FAQs</a>
+            <a href="#">Feedback</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">      
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>     
+
+        <div class="copyright">
+            <p>Copyright &copy; 2025, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
