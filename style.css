@@ -610,4 +610,50 @@ footer .copyright{
 #page-header.blog-header{
     background-image: url("images/blog.jpg");
 }
+#blog{
+    padding: 150px 150px 0 150px;
+}
+.blog-box{
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+.blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
 
+.blog-img img{
+     width:100%; /*100% from .blog-img which is 50% from .blog-box*/
+     /*If width or height is given as a percentage (%), it is always relative to the size of its parent element */
+    height: 300px;
+    /* object-fit: cover; */
+}
+.blog-details{
+    width: 50%;
+}
+.blog-text a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+.blog-text a::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+    transition: 0.3s;
+}
+.blog-text a:hover{
+    color: #088178;
+
+}
+.blog-text a:hover::after{
+    background-color: #088178;
+}
