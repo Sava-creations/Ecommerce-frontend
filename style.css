@@ -531,7 +531,6 @@ footer .copyright {
     text-align: center;
 }
 
-
 /*shop page*/
 
 #page-header{
@@ -625,17 +624,22 @@ footer .copyright {
     display:flex;
     align-items: center;
     width: 100%;
+    padding-bottom: 90px;
+    gap:30px;
 }
 .blog-img{
-    width: 50%;
+    width: 40%;
+     height: 300px; 
     margin-right: 40px;
+    overflow: hidden;
+    flex-shrink: 0; /*prevents the image from making small*/
 }
 
 .blog-img img{
      width:100%; /*100% from .blog-img which is 50% from .blog-box*/
      /*If width or height is given as a percentage (%), it is always relative to the size of its parent element */
-    height: 300px;
-    /* object-fit: cover; */
+    height: 100%;
+    object-fit: cover; 
 }
 .blog-details{
     width: 50%;
