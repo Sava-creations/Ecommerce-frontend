@@ -470,10 +470,6 @@ footer{
     padding: 0px 0px 10px 0px;
 }
 
-footer .logo {
-    margin-bottom: 5px;                                                                                                       /* Remove any bottom margin if any */
-}
-
 footer .col {
     display: flex;
     flex-direction: column;
@@ -506,7 +502,6 @@ footer .follow i{
 footer .install .row img{
     border:1px solid #088178;
     border-radius: 6px;
-    
 }
 
 footer .install img{
