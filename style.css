@@ -669,3 +669,37 @@ footer .copyright {
 .blog-text a:hover::after{
     background-color: #088178;
 }
+
+/*about page*/
+
+#page-header.about-header{
+    background-image: url("images/about/banner.png");
+}
+
+#about-head img{
+    width: 50%;
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width:60%;              /* container will take up 70% of screen*/
+    height:100%;
+    margin:30px auto 0 auto;         /* centers the video horizontally*/
+}
+#about-app .video video{
+    width:100%;      /*video will take up 100% of container*/
+    height:100%;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 2px solid #088178;
+}
