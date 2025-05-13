@@ -893,7 +893,7 @@ footer .copyright {
     border: 1px solid #e1e1e1;
     padding: 30px;
 }
-#subtotal{
+#subtotal table{
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
