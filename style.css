@@ -843,6 +843,7 @@ footer .copyright {
 #cart table td:nth-child(5) input{
     width:70px;
     padding:10px 5px 10px 15px;
+    text-align: center;
 }
 
 #cart table th{
